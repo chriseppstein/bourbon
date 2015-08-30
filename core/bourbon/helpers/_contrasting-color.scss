@@ -1,4 +1,4 @@
-@function contrasting-color($background-color, $light-color, $dark-color) {
+@function contrasting-color($background-color, $light-color: #000, $dark-color: #fff) {
   @if is-light($background-color) {
     @return $light-color;
   } @else {
